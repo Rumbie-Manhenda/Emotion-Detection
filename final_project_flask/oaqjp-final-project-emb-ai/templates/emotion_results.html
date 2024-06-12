@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection Result</title>
+    <style>
+        #system_response, #emotion_result {
+            background: linear-gradient(135deg, #f5f5f5, #dcdcdc, #b0b0b0);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        h2 .form-label {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        #emotion_result {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        #system_response:hover, #emotion_result:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 25px;">
+       
+        <div id="system_response">
+            For the given text, the system response is {{ emotions_str }}.
+        </div>
+        <div id="emotion_result">
+            The dominant emotion is <b>{{ dominant_emotion }}</b>
+        </div>
+    </div>
+</body>
+</html>
