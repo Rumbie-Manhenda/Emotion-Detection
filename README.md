@@ -30,8 +30,8 @@ This project demonstrates my knowledge of the Flask framework and other technolo
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/emotion-detection-web-app.git
-   cd emotion-detection-web-app
+   git clone https://github.com/ibm-developer-skills-network/oaqjp-final-project-emb-ai.git
+   cd oaqjp-final-project-emb-ai.git
    ```
 
 2. **Install dependencies**:
